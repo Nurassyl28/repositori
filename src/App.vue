@@ -38,7 +38,7 @@ export default {
         .get(`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=b84005f382f7ecd6883a172d3f6caf5e`)
         .then(res => (this.info = res.data))
         .catch(err => {
-          this.error = "City not found"
+          this.error = "City not found you are loh"
         })
     }
   }
